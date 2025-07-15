@@ -24,4 +24,10 @@ A menu-driven "Address Book application" developed in C. It allows users to mana
 ---
 
 ## 📁 Project Structure
+main.c // Handles menu and user input
+contact.c // Contact operations (add, edit, delete, search)
+contact.h // Contact structure and declarations
+file.c // File I/O (load, save to CSV)
+file.h // File I/O declarations
+contactbook.csv // Contact data (persistent storage)
 
